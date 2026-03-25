@@ -3,18 +3,17 @@ import time
 import chapter2
 
 def drawEasterEgg():
-    print("\n              01101101  			\n")
-    print("         01100001 01111001 		\n")
-    print("     00100000 01110100 01101000	\n")
-    print("    01100101 00100000 0110011001   \n")
-    print("  101111 01110010 01100011 011001  \n")
-    print("    0100100000 01100010 01100101   \n")
-    print("     00100000 01110111 01101001    \n")
-    print("     01110100 01101000 00100000    \n")
-    print("         01111001 01101111         \n")
-    print("             01110101              \n")
+    print("\n             01101101              \n")
+    print("         01100001 01111001          \n")
+    print("     00100000 01110100 01101000    \n")
+    print("     01100101 00100000 01100110     \n")
+    print("  01101111 01110010 01100011 01100101\n")
+    print("     00100000 01100010 01100101      \n")
+    print("     00100000 01110111 01101001     \n")
+    print("     01110100 01101000 00100000     \n")
+    print("         01111001 01101111          \n")
+    print("             01110101               \n")
     print("\nHINT: Binary Unlocks A Secret!!")
-
 class Game:
     def recallCharacterData(self, filename):
         with open(filename, 'r') as f:
