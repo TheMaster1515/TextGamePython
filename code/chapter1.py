@@ -125,7 +125,7 @@ class Game:
         print(f"\n\tThis is the beggining of the adventure. Here is a little backstory to your character. You are {recalledAge},")
         print("\nyou are attending college. You are living in the present and there is a huge explosion while you are in class!!")
         print("\nYou run out of class pushing though crowds of people. When you get outside you see that a space ship has entered")
-        print("\nthe upper atmosphere!! From here you will have to find out what is happening in the atmosphere!!!")
+        print("\nthe upper atmosphere!! From here you will have to  take an adventure to find out what is going on!!!")
         input("\nPress Enter to continue...")
         while True:
             print("\n\n\n\n**************************************************Chapter 1***************************************************")
@@ -150,8 +150,8 @@ class Game:
                 input("\nPress Enter to continue...")
                 break
             elif success == 2:
-                print("\nYou go to reuturn to your dorm")
-                print("\nDeciding it is better to go with the croud you return to your dorm.")
+                print("\nYou go to return to your dorm")
+                print("\nDeciding it is better to go with the crowd you return to your dorm.")
                 input("\nPress Enter to continue...")
                 break
             elif success == 3:
@@ -162,7 +162,7 @@ class Game:
         while True:
             print("\n\n\n\n**************************************************Chapter 1***************************************************")
             print("\nYou get to your dorm. The large ship that entered the atmosphere is now hovering outside of your window! You turn on")
-            print("\nyour T.V. and all broadcasts are on the ship!! You soon realize that there are multiple ships that are entering the")
+            print("\nyour T.V. and all broadcasts are about the ship!! You soon realize that there are multiple ships that are entering the")
             print("\natmosphere all across the globe!!\n\nNow you have to choose what to do next")
             print("\n\t1.Call your loved ones")
             print("\n\t2.Try to get back home")
@@ -192,7 +192,7 @@ class Game:
                 break
         while True:
             print("\n\n\n\n**************************************************Chapter 1***************************************************")
-            print("\nYou run outside the door!! You get outside the door and the object is just hovering above the ground. Military vehicles")
+            print("\nYou run outside the door!! When you get outside the door and the object is just hovering above the ground. Military vehicles")
             print(f"\nstart showing up left and right! One truck come up to you and yells. \"{recalledName} COME WITH ME!!\"")
             print("\nYou have to choose what to do next")
             print("\n\t1.Go with the soldier")
@@ -365,8 +365,8 @@ class Game:
         while True:
             print ("\n\n\n\n**************************************************Chapter 1***************************************************")
             print ("\nYou find your friend and ask \"Whats going on?\" he replies \"They rounded up all these people for some military") # Enter the question here
-            print ("\nlottery. Once the space ships came in they triggered a protocal that creates a lottery for all the gifted")
-            print ("\npeople on earth. We have to wait here untill you get your name drawn. Everybody that has had their name drawn")
+            print ("\nlottery. Once the space ships came in they triggered a protocol that creates a lottery for all the gifted")
+            print ("\npeople on earth. We have to wait here until you get your name drawn. Everybody that has had their name drawn")
             print ("\nhas left this place and never come back. People say that they are going to some base to train for some war")
             print ("\nThis information scares you what should you do next?")
             print ("\n\t1.Talk more with your friend")										#choice 8
@@ -449,7 +449,7 @@ class Game:
         while True:
             print ("\n\n\n\n**************************************************Chapter 1***************************************************")
             print ("\nAfter everyone settles down, theres a lot less people now, you've been herded into a large auditorium.") # Enter the question here
-            print ("\nA soldier comes onto the stage. \"I know you are scared\" the crowd murmurs. \"I know you are tired, but this is not just")
+            print ("\nA soldier comes onto the stage. \"I know you are scared\" the crowd agrees \"I know you are tired, but this is not just")
             print ("\nabout us individuals, it is about our planet, these inturders only want one thing! Our Destruction and I say \"WE")
             print ("\nSHALL NOT BACK DOWN, OR GO QUIETLY!!\" Choose what to do next. ")
             print ("\n\t1.Talk more with the soldier")										#choice 10

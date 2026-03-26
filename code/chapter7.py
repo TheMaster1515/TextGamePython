@@ -166,8 +166,8 @@ class Game:
                 input("\n\nPress Enter to Continue...")
         while True:
             print("\n\n\n\n\n\n\n\n\n\n**************************************************Chapter 7**************************************************")
-            print("\nYou group up with the polariansand they brough a lot of ships!!Compared to yours you feel")
-            print("\nsmall... You agree to move in fastand flank from the other side.So the polarians flank from")
+            print("\nYou group up with the polarians and they brought a lot of ships!!Compared to yours you feel")
+            print("\nsmall... You agree to move in fast and flank from the other side.So the polarians flank from")
             print("\nthe back of the moon while you take their fleight head on!!!There ships start to make shape in")
             print("\nthe distance.They have large battle cruisers whill smaller fighter ships protecting them.")
             print("\nI am sure that there are more ships we cant see yet but they out number us by a lot!!!")
@@ -377,7 +377,7 @@ class Game:
 
         while True:
             print("\n\n\n\n\n\n\n\n\n\n**************************************************Chapter 7**************************************************")
-            print("\nYou just docked with the podand you make your way to on the pod to investigate more.")
+            print("\nYou just docked with the pod and you make your way to on the pod to investigate more.")
             print("\nYou get on the podand you are greated by two Tau Ceti's. They are humonoid with")
             print("\nsome ridges around their noses.They tell you about how this ship was designed years")
             print("\nback as a last resort in case this battle wasnt wont but The Tau Ceti's. You go look ")
