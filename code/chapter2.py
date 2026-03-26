@@ -148,7 +148,7 @@ class Game:
         input("\nPress Enter to continue...")
         while True:
             print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n**************************************************Chapter 2***************************************************")
-            print(f"\nYou are at MEPS and you and your friend go seperated. They are doing all sorts of checks on you.")  # Enter the question here
+            print(f"\nYou are at MEPS and you and your friend get separated. They are doing all sorts of checks on you.")  # Enter the question here
             print("\nNow you are just about done and you wonder what job will they have you doing?")
             print(f"\nThey state you are from {recalledColony} so these are your choices of jobs.")
             print("\n\t1.Pilot")                                      #choice 13

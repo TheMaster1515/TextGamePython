@@ -448,7 +448,7 @@ class Game:
         
         while True:
             print ("\n\n\n\n**************************************************Chapter 1***************************************************")
-            print ("\nAfter everyone settles down, theres a lot less people now, you've been herded into a large auditorium.") # Enter the question here
+            print ("\nAfter everyone settles down, theres a lot less people now, you've been herded into a large auditorium.") 
             print ("\nA soldier comes onto the stage. \"I know you are scared\" the crowd agrees \"I know you are tired, but this is not just")
             print ("\nabout us individuals, it is about our planet, these inturders only want one thing! Our Destruction and I say \"WE")
             print ("\nSHALL NOT BACK DOWN, OR GO QUIETLY!!\" Choose what to do next. ")

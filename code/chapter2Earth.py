@@ -73,7 +73,7 @@ class Game:
                 continue
             if success == 1:
                 print("\nYou have chosen to get off the shuttle. You exit the shuttle with everybody else and the soldier escorts you to a")
-                print("\ndesk. The soldier at the desk ask \"Let me scan your ticket. The code on your ticket will unlock when you are done")
+                print("\ndesk. The soldier at the desk asks \"Let me scan your ticket. The code on your ticket will unlock when you are done")
                 print("\nwith your enlistement.\"")
                 input("\nPress Enter to continue...")
                 break
@@ -175,10 +175,10 @@ class Game:
                 input("\nPress Enter to continue...")
                 break
             elif success == 2:
-                print("\nYou chose how to make gravity. The soldier then files you into a classroom with a mach bridge in it. You are very")
+                print("\nYou chose how to make gravity. The soldier then files you into a classroom with a mock bridge in it. You are very")
                 print("\ncurious on how you are going to create gravity!! They sit you down at a desk and throw a big manual on the desk for")
                 print("\nyou to study. You study all you can about gravity. Then there is a test that they ask everybody to take. It is a")
-                print("\nvery long multiple choice question test. You take it and find out that you passed!! They take you over to the mach")
+                print("\nvery long multiple choice question test. You take it and find out that you passed!! They take you over to the mock")
                 print("\nbridge and show you how to create gravity! When you are in the bridge they turn off a switch and you float!! You")
                 print("\nare amazed on how they are able to do this!")
                 input("\nPress Enter to continue...")
