@@ -1,2 +1,2 @@
-Person: alex
-Ship: The Nostromo
+Person: Lee
+Ship: Stargazer

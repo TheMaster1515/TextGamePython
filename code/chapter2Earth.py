@@ -234,51 +234,52 @@ class Game:
                 print("\nsoldiers intercept you and restrain you. They detain you and throw you in a small cell to rot away.")
                 input("\nPress Enter to try again...")
                 continue
-        print("\n\n\n\n**************************************************Chapter 2***************************************************")
-        print("\nYou hear all that was said. You feel empowered! You get up and go to the front to get your ship assignment and you")
-        print("\nnotice somebody you know in line. You see your friend you met at the camp on earth! You say \"Hey! I remember you")
-        print("\nfrom the camp on earth! I never got your name. What was your name?\"")
-        characterPerson = ""
-        characterShip = ""
-        while True:
-            characterPerson = input("\nEnter your friends name: ")
-            if not characterPerson.strip():
-                print("\n\tNothing entered. Please enter some text.")
-                continue
-            break
-        with open("files/character.txt", "w") as f:
-            f.write(f"Person: {characterPerson}\n")
-            f.write(f"Ship: {characterShip}\n")
-        print("\n\n\n\n**************************************************Chapter 2***************************************************")
-        print(f"\n\"Hey {characterPerson} how have you been doing? This is all crazy isn't it? The Tau Ceties are coming? and")
-        print(f"\nThe Polarians are here to help us? I am getting very overwhelmed.\" He replies \"Hey {recalledName} yes I")
-        print("\nknow me too! They took me from my house and put me in that camp with no warning! I heard that the ISA is some super")
-        print("\nsecret organization that has been around since Apollo! They have super advanced technology and with tech from the future")
-        print("\nthey will be unstoppable! We have to win this war for the world!!!\"")
-        input("\nPress Enter to continue...")
-        print("\n\n\n\n**************************************************Chapter 2***************************************************")
-        print(f"\nYou and your friend {characterPerson} get done with all your training and now it is time for you to go to")
-        print("\nyour ship. You get in a line of people and you see there are three desks with officer's at them. You get to the")
-        print("\nend of the line and a soldier says \"Let me see your ticket\" You pull out your ticket and he scans the code.")
-        print("\nHe says \"You can choose from these ships. The Stargazer, The Nostromo, and The Phoenix\"")
-        while True:
-            characterShip = input("\nPlease type which ship you would like to be stationed on: ")
-            if not characterShip.strip():
-                print("\n\tNothing entered. Please enter some text.")
-                continue
-            break
-        with open("files/character.txt", "w") as f:
-            f.write(f"Person: {characterPerson}\n")
-            f.write(f"Ship: {characterShip}\n")
-        print("\n\n\n\n**************************************************Chapter 2***************************************************")
-        print(f"\nYou have choosen {characterShip}. Congrats! Your friend {characterPerson} got assigned the exact same ship!")
-        print("\nYou are led outside by a soldier. Before going out the airlock you are given a small device that he says \"This is your")
-        print("\nspace suit. Place it on your chest and a thin film will cover your body allowing you to go in space\" You put the device")
-        print("\non your chest and it activates. A thin film covers your body. You walk out the airlock with the other recruits and see a")
-        print("\nlarge landing pad with multiple ships on it!")
-        input("\nPress Enter to continue to Chapter 3...")
-        chapter3.Game().chapter3()
-        return True
+        while True:    
+            print("\n\n\n\n**************************************************Chapter 2***************************************************")
+            print("\nYou hear all that was said. You feel empowered! You get up and go to the front to get your ship assignment and you")
+            print("\nnotice somebody you know in line. You see your friend you met at the camp on earth! You say \"Hey! I remember you")
+            print("\nfrom the camp on earth! I never got your name. What was your name?\"")
+            characterPerson = ""
+            characterShip = ""
+            while True:
+                characterPerson = input("\nEnter your friends name: ")
+                if not characterPerson.strip():
+                    print("\n\tNothing entered. Please enter some text.")
+                    continue
+                break
+            with open("files/character.txt", "w") as f:
+                f.write(f"Person: {characterPerson}\n")
+                f.write(f"Ship: {characterShip}\n")
+            print("\n\n\n\n**************************************************Chapter 2***************************************************")
+            print(f"\n\"Hey {characterPerson} how have you been doing? This is all crazy isn't it? The Tau Ceties are coming? and")
+            print(f"\nThe Polarians are here to help us? I am getting very overwhelmed.\" He replies \"Hey {recalledName} yes I")
+            print("\nknow me too! They took me from my house and put me in that camp with no warning! I heard that the ISA is some super")
+            print("\nsecret organization that has been around since Apollo! They have super advanced technology and with tech from the future")
+            print("\nthey will be unstoppable! We have to win this war for the world!!!\"")
+            input("\nPress Enter to continue...")
+            print("\n\n\n\n**************************************************Chapter 2***************************************************")
+            print(f"\nYou and your friend {characterPerson} get done with all your training and now it is time for you to go to")
+            print("\nyour ship. You get in a line of people and you see there are three desks with officer's at them. You get to the")
+            print("\nend of the line and a soldier says \"Let me see your ticket\" You pull out your ticket and he scans the code.")
+            print("\nHe says \"You can choose from these ships. The Stargazer, The Nostromo, and The Phoenix\"")
+            while True:
+                characterShip = input("\nPlease type which ship you would like to be stationed on: ")
+                if not characterShip.strip():
+                    print("\n\tNothing entered. Please enter some text.")
+                    continue
+                break
+            with open("files/character.txt", "w") as f:
+                f.write(f"Person: {characterPerson}\n")
+                f.write(f"Ship: {characterShip}\n")
+            print("\n\n\n\n**************************************************Chapter 2***************************************************")
+            print(f"\nYou have choosen {characterShip}. Congrats! Your friend {characterPerson} got assigned the exact same ship!")
+            print("\nYou are led outside by a soldier. Before going out the airlock you are given a small device that he says \"This is your")
+            print("\nspace suit. Place it on your chest and a thin film will cover your body allowing you to go in space\" You put the device")
+            print("\non your chest and it activates. A thin film covers your body. You walk out the airlock with the other recruits and see a")
+            print("\nlarge landing pad with multiple ships on it!")
+            input("\nPress Enter to continue to Chapter 3...")
+            chapter3.Game().chapter3()
+            return True
 
 if __name__ == "__main__":
     game = Game()

@@ -35,19 +35,6 @@ class Game:
             return "Unknown"
 
 
-    def chapterz(self):
-        # Placeholder
-        return True
-
-    def chapterx(self):
-        # Placeholder
-        return True
-
-
-    def chapter1(self):
-        # Placeholder
-        return True
-
     def Chapter2Earth(self):
         game = chapter2Earth.Game()
         return game.Chapter2Earth()

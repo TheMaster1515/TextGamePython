@@ -69,50 +69,6 @@ class Game:
             pass
         # Continue with more chapters or game logic
 
-    def chapterz(self):
-        # Placeholder
-        return True
-
-    def chapterx(self):
-        # Placeholder
-        return True
-
-    def chapter2(self):
-        # Placeholder
-        return True
-
-    def Chapter2Earth(self):
-        # Placeholder
-        return True
-
-    def Chapter2Moon(self):
-        # Placeholder
-        return True
-
-    def chapter3(self):
-        # Placeholder
-        return True
-
-    def chapter4(self):
-        # Placeholder
-        return True
-
-    def chapter5(self):
-        # Placeholder
-        return True
-
-    def chapter6(self):
-        # Placeholder
-        return True
-
-    def chapter7(self):
-        # Placeholder
-        return True
-
-    def chapter8(self):
-        # Placeholder
-        return True
-
     def chapter1(self):
         recalledName, recalledAge, recalledColony = self.recallCharacterData("files/data.txt")
         recalledPerson, recalledShip = self.recallCharacterWork("files/character.txt")
@@ -538,7 +494,7 @@ class Game:
             print ("\n\t3.Go back to your bunk")
             try:
                 success = int(input("\nChoose an option (1, 2, or 3): "))
-                if success < 1 or success > 4:
+                if success < 1 or success > 3:
                     raise ValueError
             except ValueError:
                 print("\n\tInvalid option. Please enter 1, 2, or 3.")
@@ -575,7 +531,7 @@ class Game:
             print ("\n\t3.Report to MEPS")
             try:
                 success = int(input("\nChoose an option (1, 2, or 3): "))
-                if success < 1 or success > 4:
+                if success < 1 or success > 3:
                     raise ValueError
             except ValueError:
                 print("\n\tInvalid option. Please enter 1, 2, or 3.")
