@@ -158,13 +158,13 @@ class Game:
         print("\n\n\n\n**************************************************Chapter 3**************************************************")
         print(f"\nYou have arrived at your ship {recalledShip}. Once you get to your ship there is a broadcast over all channels.")
         print("\nYou see the leader of the ISA on the screen talking in a press conference. He says \"Hello new recruits! Welcome to")
-        print("\nthe ISA. You guys probably are wondering what is goind on? This all seemed very rushed and last minute but, here")
+        print("\nthe ISA. You guys probably are wondering what is going on? This all seemed very rushed and last minute but, here")
         print("\nis an explination. The ISA has been around since the Apollo missions and its sole purpose is to save the world in")
         print("\nthe event that there is an alien invasion and you guessed it, there is an alien invasion. The Polarians have come")
         print("\nfrom the future to warn us about an impendeing invasion. The Tau Ceties are going to come to earth in the near future")
         print("\nto destroy the world. We must stop them!! We have all sorts of tech that is more advanced than anything you have seen.")
         print("\nWe have faster than light drives FTL for short, quantum computers, energy beams, artificial gravity, and much more!")
-        print("\nWe have got much more designs from The Polarians to put into production. Our plan is daring! We are going to take it")
+        print("\nWe have got a lot more designs from The Polarians to put into production. Our plan is daring! We are going to take it")
         print("\nstraight to the enemy home world! We will travel at 24x the speed of light to make the 12 light year journey in 6 months")
         print("\nNow what would you like to do?\"")
         while True:
@@ -187,13 +187,13 @@ class Game:
                 input("\nPress Enter to continue...")
                 break
             elif success == 2:
-                print(f"\nYou chose to go home. You try to find an excape ship in your ship {recalledShip} . But you are having a hard")
+                print(f"\nYou chose to go home. You try to find an escape ship in your ship {recalledShip} . But you are having a hard")
                 print("\ntime finding an escape ship. While looking around a soldier spots you and asks what your doing. You tell him and he")
                 print("\nthrows you in the brig.")
                 input("\nPress Enter to try again...")
                 continue
             elif success == 3:
-                print("\nYou chose to try and find another ship. You talk with your commander but he says that this is the ship you were assigned")
+                print("\nYou choose to try and find another ship. You talk with your commander but he says that this is the ship you were assigned")
                 print("\nand you can not switch. He questions your loyalty and throws you in the brig for deserting.")
                 input("\nPress Enter to try again...")
                 continue
@@ -204,9 +204,9 @@ class Game:
                 input("\n\nPress Enter to Continue...")
         while True:
             print("\n\n\n\n**************************************************Chapter 3***************************************************")
-            print("\nYou have started your journey to Tau Ceti to destroy them but on your way you have to stop and get fuel. They make")
-            print("\nan annoucment \"Prepare for landing\" You are wondering where you are landing!! You look out the window and see a")
-            print("\nmoon like object covered in ice but you see this smell base that has the words ISA on it. You ask your friend")
+            print("\nYou have started your journey to Tau Ceti to destroy the Tau Ceit's but on your way you have to stop and get fuel. They")
+            print("\nmake an announcement \"Prepare for landing\" You are wondering where you are landing!! You look out the window and see a")
+            print("\nmoon like object covered in ice but you see this small base that has the words ISA on it. You ask your friend")
             print(f"\nwhere are we? {recalledPerson} says \"We are on Europa!!!\" What do you want to do?")
             print("\n\t1.Land on Europa")
             print("\n\t2.Check for enemy")
@@ -223,7 +223,7 @@ class Game:
                 continue
             if success == 1:
                 print(f"\nYou chose to land on Europa. You land on Europa safetly and exit your ship {recalledShip} and go out")
-                print("\nto the base on Europa. The base is a good size and there are other ships that landed there to refuel. You go inside")
+                print("\nto the base on Europa. The base is very large and there are other ships that landed there to refuel. You go inside")
                 print("\nthe base's hanger and see that the hanger is full of drones! You wonder why they have so many drones on")
                 print("\nEuropa.")
                 input("\nPress Enter to continue...")
@@ -260,15 +260,15 @@ class Game:
                 print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
                 continue
             if success == 1:
-                print(f"\nYou try to see if you can stay on Eruopa. You ask a the captian \"Can I just stay on Europa?\" He states")
-                print(f"\n{recalledName} you want to stay here? You have to join us in the battle or we may not win. If you stay here")
-                print("\nthe world may be destoyed\" One year passes and the Tau Ceties show up! They go strait for Earth. You watch")
-                print("\na video feed of the world being destroyed!! You deeply regret staying on Europa.")
+                print(f"\nYou try to see if you can stay on Europa. You ask a the captian \"Can I just stay on Europa?\" He states")
+                print(f"\n{recalledName} you want to stay here? You have to join us in the battle or we may not win! If you stay here")
+                print("\nthe world may be destoyed\" One year passes on Europa and the Tau Ceties show up! They go strait for Earth. You")
+                print("\nwatch a video feed of the world being destroyed!! You deeply regret staying on Europa.")
                 input("\nPress Enter to try again...")
                 continue
             elif success == 2:
-                print("\nYou try to hid on a ship that is going back to Earth. You end up getting on a ship and making your way")
-                print("\nback to Earth. Mid flight they realize that you should have been going to Tua Ceti. They label you as")
+                print("\nYou try to hide on a ship that is going back to Earth. You end up getting on a ship and making your way")
+                print("\nback to Earth. Mid flight they realize that you should have been going to Tau Ceti. They label you as")
                 print("\na deserter and you are court martialed.")
                 input("\nPress Enter to try again...")
                 continue
@@ -281,8 +281,8 @@ class Game:
             print("\n\n\n\n**************************************************Chapter 3***************************************************")
             print(f"\nYou and {recalledPerson} are on your ship {recalledShip} and you guys are starting to get a routine")
             print("\ndown. You get up in the morning and excerise, get ready for the day, get breakfast, and then start your shift for the")
-            print("\nday. When you get done you usually spend time gaming and making new games. You look out your window and see the Orc")
-            print("\nCloud!! You realize that you are the farthest object ever the be made by Earth. What should you do?")
+            print("\nday. When you get done you usually spend time gaming and making new games. You look out your window and see the Oort")
+            print("\nCloud!! You realize that you are the farthest person ever to go this far from Earth. What should you do?")
             print("\n\t1.Stop and explore")
             print("\n\t2.Continue with the mission")
             print("\n\t3.Find a ship fully stocked with drones and fight alone")
@@ -297,7 +297,7 @@ class Game:
                 print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
                 continue
             if success == 1:
-                print("\nYou stop and explore the Orc Cloud. Nobody has ever seen this before! As you explore you see an object out")
+                print("\nYou stop and explore the Oort Cloud. Nobody has ever seen this before! As you explore you see an object out")
                 print("\nthere. You scan it and realize that you just found an object bigger than Pluto! You wonder what else")
                 print("\ncould be out there!")
                 input("\nPress Enter to continue...")
@@ -309,8 +309,8 @@ class Game:
                 input("\nPress Enter to continue...")
                 break
             elif success == 3:
-                print("\nYou try to take a ship and go alone. You go to the hanger and find a mid size ship that has full fuel, full")
-                print("\nof drones!! you jump in the ship and take it out of the ship alone. You speed off and then engage the")
+                print("\nYou try to take a ship and go alone. You go to the hanger and find a mid size ship that is full fuel and full")
+                print("\nof drones!! You jump in the ship and take it out of the ship alone. You speed off and then engage the")
                 print("\nFTL. You see a bright light and then you suddenly explode!!")
                 input("\nPress Enter to try again...")
                 continue

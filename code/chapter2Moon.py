@@ -258,7 +258,7 @@ class Game:
                 f.write(f"Ship: {characterShip}\n")
             print("\n\n\n\n**************************************************Chapter 2***************************************************")
             print(f"\nYou have choosen {characterShip}. Congrats! Your friend {characterPerson} got assigned the exact same ship!")
-            print("\nYou are lead outside by a soldier. Before going out the airlock you are given a small device that he says \"This is your")
+            print("\nYou are led outside by a soldier. Before going out the airlock you are given a small device that he says \"This is your")
             print("\nspace suit. Place it on your chest and a thin film will cover your body allowing you to go in space\" You put the device")
             print("\non your chest and it activates. A thin film covers your body. You walk out the airlock with the other recruits and see a")
             print("\nlarge landing pad with multiple ships on it!")
