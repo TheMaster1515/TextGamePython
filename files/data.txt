@@ -1,3 +1,0 @@
-Name: asdf
-Age: 23
-Colony: asdf
