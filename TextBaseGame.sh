@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Path to your project
-APP_DIR="$HOME/Dropbox/Documents/Coding/Projects/Textbasegame_python/code"
+# Resolve the project directory from this launcher so it works wherever the
+# project folder is located.
+APP_DIR="$(cd -- "$(dirname -- "$0")" && pwd)"
 
-# Go to the directory
 cd "$APP_DIR" || {
     echo "Failed to enter directory: $APP_DIR"
     exit 1
 }
 
-# Run the game
-python3 chapterZ.py
+exec python3 code/game_window.py

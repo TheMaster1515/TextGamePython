@@ -159,10 +159,10 @@ class Game:
 
         while True:
             print("\n\n\n\n**************************************************Chapter 4**************************************************")
-            print(f"\nYou are leaving the Solar System now in your ship {recalledShip}. You are just now finally getting the hang")
-            print(f"\nof your job {recalledJob}. There is an anoucement that comes over the speakers saying \"We will be landing")
-            print("\nsoon. Please prepare.\" You wonder why you are landing? Why are you landing so soon? It seems like you just")
-            print("\nleft the solar system. What do you need to do to prepare for landing?")
+            print(f"\nYou are leaving the Solar System now in your the {recalledShip}. You are just now finally getting the hang")
+            print(f"\nof your job of being a {recalledJob}. There is an anoucement that comes over the speakers saying \"We will be")
+            print("\nlanding soon. Please prepare.\" You wonder why you are landing? Why are you landing so soon? It seems like you")
+            print("\njust left the solar system. What do you need to do to prepare for landing?")
             print(f"\n\t1.Ask your friend {recalledPerson}")
             print("\n\t2.Go to the bridge")
             print("\n\t3.Look out the window")
@@ -176,7 +176,7 @@ class Game:
                 continue
             if success == 1:
                 print(f"\nYou ask your friend {recalledPerson} what they think is going on? He replies with \"I think that we")
-                print("\nare landing on a base that looks like it is on a moon\"")
+                print("\nare landing on a base that looks like it is a moon\"")
                 input("\nPress Enter to continue...")
                 break
             elif success == 2:
@@ -185,7 +185,7 @@ class Game:
                 input("\nPress Enter to continue...")
                 break
             elif success == 3:
-                print("\nYou look out the window and you see a moon!! You notice a base on the moon you are landing on.")
+                print("\nYou look out the window and you see a moon!! You notice a base on the moon that you are landing on.")
                 input("\nPress Enter to continue...")
                 break
 
@@ -213,7 +213,7 @@ class Game:
                 continue
             elif success == 2:
                 print("\nYou go find a Polarian that is willing to talk with you. You find one willing to talk and you are amazed!")
-                print("\nThey look just like humans but they have fidges on their nose. The Polarian says \"This is our base that was")
+                print("\nThey look just like humans but they have ridges on their nose. The Polarian says \"This is our base that was")
                 print("\nset up decades ago. We have been fighting the Tau Ceties for decades with the humans.\"")
                 input("\nPress Enter to continue...")
                 break
