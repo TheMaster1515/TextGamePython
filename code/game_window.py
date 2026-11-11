@@ -154,7 +154,7 @@ class GameWindow:
         self.screen.blit(overlay, (0, 0))
 
         output_rect = self._output_rect()
-        title = self.title_font.render("TEXT-BASED GAME", True, ACCENT)
+        title = self.title_font.render("TEXT BASED ADVENTURE", True, ACCENT)
         self.screen.blit(title, (32, 27))
 
         visible_lines = self.lines + self._wrap_line(self.current_line)

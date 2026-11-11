@@ -14,6 +14,7 @@ def drawEasterEgg():
     print("         01111001 01101111          \n")
     print("             01110101               \n")
     print("\nHINT: Binary Unlocks A Secret!!")
+    #May the force be with you 
 class Game:
     def recallCharacterData(self, filename):
         with open(filename, 'r') as f:
